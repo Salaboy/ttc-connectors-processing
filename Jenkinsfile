@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'activiti'
+      ORG               = 'salaboy'
       APP_NAME          = 'ttc-connectors-processing'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
